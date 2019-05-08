@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 def welcome
+=======
+rubydef welcome
+>>>>>>> 45e3332e3aa29bec51c34334a4f6be74d59b85bf
   puts "Welcome to the Blackjack Table"
 end
 
@@ -53,7 +57,11 @@ end
 def invalid_command(card_total)
   # code invalid_command here
   puts "Please enter a valid command"
+<<<<<<< HEAD
   #prompt_user
+=======
+  prompt_user
+>>>>>>> 45e3332e3aa29bec51c34334a4f6be74d59b85bf
   return card_total
 end
 
